@@ -2,4 +2,4 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN brew install kotlin
+RUN sdk install kotlin && sdk install gradle
